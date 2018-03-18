@@ -12,3 +12,19 @@ CREATE TABLE ping(id INT unsigned NOT NULL AUTO_INCREMENT, status VARCHAR(10), t
 ```
 2) If you need mail notify, you need to configure it and replace it in the code of the script
 
+Install:
+1) Clone it:
+```GIT
+git clone https://github.com/x11tete11x/watchdog-ping.git
+```
+
+2) Make executable 
+```BASH
+chmod +x /path/to/script/watchdog-ping.sh
+```
+
+3) You can put in cron, to execute periodically, for example every 5 minutes
+```BASH
+crontab -e
+*/5 * * * * /path/to/script/watchdog-ping.sh
+```
