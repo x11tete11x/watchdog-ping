@@ -1,7 +1,7 @@
 # watchdog-ping
 A tiny script to watch if some IP is alive
 
-Requeriments:
+Requirements:
 1) A working DB, in my case i use MariaDB.
 You need to create the following database:
 
