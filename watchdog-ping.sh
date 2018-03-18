@@ -1,8 +1,8 @@
 #!/bin/bash
 ##########CONFIG############
 IP="<IP>"
-USER="<BD USER>"
-PASSW="<PASS BD USER>"
+USER="<DB USER>"
+PASSW="<PASS DB USER>"
 DATABASE="<DATABASE NAME>"
 TRIES=4
 ############################
