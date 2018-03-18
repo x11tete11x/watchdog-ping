@@ -1,2 +1,2 @@
 # watchdog-ping
-A tiny script to see test if some IP is alive
+A tiny script to watch if some IP is alive
